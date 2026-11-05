@@ -1,0 +1,491 @@
+(footprint "BatteryHolder_CR2032_PTH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "http://www.keyelco.com/product-pdf.cfm?p=719")
+	(tags "Keystone type 103 battery holder")
+	(property "Reference" "BT1"
+		(at 2.54 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "2d039fca-9203-422c-a696-c70b105ab5e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Cell"
+		(at 15 13 0)
+		(layer "F.Fab")
+		(uuid "1f6e2010-1866-4eb9-983d-ca81304f1d9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b54c594-3507-4073-a02b-ead59daaa3d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single-cell battery"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7917d535-1af4-4e9e-b2da-91c984cdb0ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0da47568-6210-4d26-8dbb-bbe73d2b6920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "DC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dc57c99-5f87-4c3a-b724-50b0d0e76b55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=+ 2=-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ba6c298-b64c-4730-bc0c-018b23595fb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dd93057-3860-40bc-b8c2-738eef2cc42d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Feeder" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2922edb6-61a4-44f5-874c-e951947d0b17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.67 -3)
+		(end 3.5 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3027823a-a21d-4808-86a1-667e6ed7d3d9")
+	)
+	(fp_line
+		(start 1.67 3)
+		(end 1.67 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd34e6fa-42ea-4178-894a-ad071c349acb")
+	)
+	(fp_line
+		(start 1.67 3)
+		(end 3.5 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f09e15a-173c-4831-adff-357a95fc7b59")
+	)
+	(fp_arc
+		(start 3.5 3)
+		(mid 3.950694 3.136459)
+		(end 4.25 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ca5524d-5959-4e2a-b08f-54d34f3361a9")
+	)
+	(fp_arc
+		(start 4.25 -3.5)
+		(mid 3.950694 -3.136459)
+		(end 3.5 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23e05665-9ccd-4631-a4ec-85f4406e6a6b")
+	)
+	(fp_arc
+		(start 4.25 -3.5)
+		(mid 16.971103 -11.358466)
+		(end 26.695671 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20fc7176-85b5-49d6-b804-49b5b690122f")
+	)
+	(fp_arc
+		(start 26.695671 0)
+		(mid 16.971103 11.358466)
+		(end 4.25 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e63d8d6-fdd5-452c-9a39-a9b03a64f8ad")
+	)
+	(fp_line
+		(start 1.396849 -3.250785)
+		(end 3.5 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "613a9e14-d142-4ef2-82d9-11fa0f8ac96e")
+	)
+	(fp_line
+		(start 1.396849 3.249215)
+		(end 1.396849 -3.250785)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68221614-098e-4eaf-8979-08a6db74833f")
+	)
+	(fp_line
+		(start 1.396849 3.25)
+		(end 3.5 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6642fb49-1ce6-4ef8-9c03-097b2bcf95d0")
+	)
+	(fp_arc
+		(start 3.5 3.25)
+		(mid 3.809273 3.345916)
+		(end 4.01 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc6dd4ef-5983-4c82-83be-1eadafc9266a")
+	)
+	(fp_arc
+		(start 4.01 -3.6)
+		(mid 3.809273 -3.345916)
+		(end 3.5 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e68e0a75-6182-47ff-8d47-6559f7adc19f")
+	)
+	(fp_arc
+		(start 4.01 -3.6)
+		(mid 17.020063 -11.613627)
+		(end 26.95 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dee899f9-c953-4718-a83e-9e985d52185d")
+	)
+	(fp_arc
+		(start 26.95 0)
+		(mid 17.020063 11.613629)
+		(end 4.01 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47308a00-9ea0-4662-8ab0-abe2ef33bf6e")
+	)
+	(fp_line
+		(start 1.755907 -2.5)
+		(end 1.755907 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3574fd49-fba7-457e-945a-1edc069d63d4")
+	)
+	(fp_line
+		(start 2.149888 2.88724)
+		(end 3.5 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f0bcf6b-af37-4aef-8b96-bf04fcf2a17e")
+	)
+	(fp_line
+		(start 3.5 -2.9)
+		(end 2.17103 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51aa345d-82fc-4e91-8336-5c7f242aded1")
+	)
+	(fp_line
+		(start 5.2 -1.3)
+		(end 5.2 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6a14e7c-b7ec-467c-8291-d66c8aaa8767")
+	)
+	(fp_line
+		(start 23.5712 -7.7216)
+		(end 22.6314 -6.858)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ad953f3-950c-4e71-946d-f7219fd802f7")
+	)
+	(fp_line
+		(start 23.5712 7.7216)
+		(end 22.6568 6.8834)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6dd1774b-48b6-4f46-a561-9ff0315d04d2")
+	)
+	(fp_arc
+		(start 1.77103 -2.5)
+		(mid 1.888187 -2.782843)
+		(end 2.17103 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86cff111-561f-4f34-b126-e78b5ba1205c")
+	)
+	(fp_arc
+		(start 2.149771 2.88724)
+		(mid 1.866928 2.770083)
+		(end 1.749771 2.48724)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd23c632-5767-4a33-8848-9be1dc27c425")
+	)
+	(fp_arc
+		(start 3.5 2.9)
+		(mid 4.020217 3.065109)
+		(end 4.35 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a863d72-bcfd-4f70-b052-57f7ae578756")
+	)
+	(fp_arc
+		(start 4.35 -3.5)
+		(mid 4.020217 -3.06511)
+		(end 3.5 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae71de61-3ae6-42c5-a4c5-14a6694ad036")
+	)
+	(fp_arc
+		(start 4.35 -3.5)
+		(mid 16.971395 -11.261979)
+		(end 26.600299 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "319f5c16-7f0f-4980-bfba-6e25a4871be4")
+	)
+	(fp_arc
+		(start 5.2 -1.3)
+		(mid 16.5 -10)
+		(end 25.2 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10194bc9-52a4-4015-a35f-cd19cdf48e34")
+	)
+	(fp_arc
+		(start 13.3 0)
+		(mid 15.272611 -1.898612)
+		(end 17.09445 0.145116)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38e77882-54c8-4d5b-aa02-bf5cc00950dc")
+	)
+	(fp_arc
+		(start 17.09445 -0.145116)
+		(mid 15.272611 1.898612)
+		(end 13.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb799274-35c6-4d7c-9efc-9fe29e55ee7d")
+	)
+	(fp_arc
+		(start 25.2 -1.3)
+		(mid 16.5 10)
+		(end 5.2 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1746245-777f-4ff5-9014-73a763885ea7")
+	)
+	(fp_arc
+		(start 26.600299 0)
+		(mid 16.971396 11.261979)
+		(end 4.35 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9953a770-988d-47d2-8380-1646bb098f31")
+	)
+	(fp_text user "+"
+		(at 6.2 -0.093844 0)
+		(layer "F.SilkS")
+		(uuid "523e5814-1ffd-4c07-a8db-3de6bfac3db5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.7 -2.3 0)
+		(layer "F.Fab")
+		(uuid "9afb4fda-47ab-41e4-9e9b-34bd3cea5faf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 3.098 0)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "db0cbd89-a9bc-4d71-8506-fc70292ab792")
+	)
+	(pad "2" thru_hole circle
+		(at 23.098 0)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8503b1c-3d6c-4e7f-9f03-90ec41cd195c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_103_1x20mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
